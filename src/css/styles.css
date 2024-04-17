@@ -4,7 +4,7 @@
 :root {
   font-family: "Montserrat", sans-serif;
   /* font-size: 16px; */
-  line-height: 24px;
+  line-height: 1.5em;
   font-weight: 400;
 
   color: #242424;
@@ -152,4 +152,47 @@ input:placeholder {
 }
 @keyframes l14 {
   100% {left: calc(100% + 20px)}
+}
+
+
+/* ------------------------------  Paginaion  */
+
+
+.list {
+  margin: 32px;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #808080;
+  top: 0;
+  left: 0;
+}
+.backdrop.is-hidden {
+  display: none;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+.modal-div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  
 }

@@ -2,7 +2,14 @@
 // API_KEY = 'uHSLi07StIOlriMPxJGxUbSYsHDs6AFx';
 // Потрібно відрендерити колекцію івентів і реалізувати пагінацію за допомогою бібліотеки tui-pagination(https://www.npmjs.com/package/tui-pagination).
 // Запити робимо використовуючи бібліотеку axios і конструкції async/await; try/catch
+// https://github.com/nhn/tui.pagination/blob/production/docs/getting-started.md
 
-BASE_URL = 'https://app.ticketmaster.com/discovery/v2/'\
+import './js/events';
 import './js/api';
 
+import './js/pagination';
+import './js/search-form';
+import './js/modal';
+
+
+ 
